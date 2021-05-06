@@ -14,14 +14,17 @@ Classification of the classic breast cancer Wisconsin dataset using SVM Classifi
 
 ### SVM Face Classifier
 We use the concepts of SVM to build a face classifer. Further we also use PCA in order to make the classifer better.The classification improved from 85 to 90 percent due PCA.The dataset used is Labeled Faces in the Wild from scikit-learn. It consists of more than 13,000 curated face images of more than 5,000 famous people. Each class has various numbers of image samples.
+
+![faces](https://user-images.githubusercontent.com/65702476/117292275-a235f900-ae8d-11eb-8798-300910c2fe31.png)
+
 #### SVM Resutls
                    precision    recall  f1-score   support
 
-     Colin Powell       0.89      0.88      0.88        64
-     Donald Rumsfeld       0.84      0.81      0.83        32
-     George W Bush       0.88      0.93      0.90       127
+         Colin Powell       0.89      0.88      0.88        64
+      Donald Rumsfeld       0.84      0.81      0.83        32
+        George W Bush       0.88      0.93      0.90       127
     Gerhard Schroeder       0.84      0.72      0.78        29
-       Tony Blair       0.91      0.88      0.89        33
+           Tony Blair       0.91      0.88      0.89        33
 
          accuracy                           0.88       285
         macro avg       0.87      0.84      0.86       285
@@ -30,12 +33,13 @@ We use the concepts of SVM to build a face classifer. Further we also use PCA in
 
                     precision    recall  f1-score   support
 
-     Colin Powell       0.91      0.95      0.93        64
-    Donald Rumsfeld       0.77      0.84      0.81        32
-    George W Bush       0.95      0.91      0.93       127
+         Colin Powell       0.91      0.95      0.93        64
+      Donald Rumsfeld       0.77      0.84      0.81        32
+        George W Bush       0.95      0.91      0.93       127
     Gerhard Schroeder       0.81      0.86      0.83        29
-       Tony Blair       0.93      0.85      0.89        33
+           Tony Blair       0.93      0.85      0.89        33
 
          accuracy                           0.90       285
         macro avg       0.87      0.88      0.88       285
      weighted avg       0.90      0.90      0.90       285
+
