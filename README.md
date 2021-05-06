@@ -17,7 +17,7 @@ We use the concepts of SVM to build a face classifer. Further we also use PCA in
 
 ![faces](https://user-images.githubusercontent.com/65702476/117292275-a235f900-ae8d-11eb-8798-300910c2fe31.png)
 
-#### SVM Resutls
+#### SVM Results
                    precision    recall  f1-score   support
 
          Colin Powell       0.89      0.88      0.88        64
